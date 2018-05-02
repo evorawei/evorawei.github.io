@@ -1,0 +1,217 @@
+body{
+	background-color: #ccc;
+}
+
+.container{
+	display: grid;
+	grid-auto-rows: 1fr .25fr 1fr 1fr;
+	background-color: white;
+}
+
+.topgrid{
+	grid-row: 1/2;
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+}
+
+.top1{
+
+	font-family: "lane_-_narrowregular";
+	font-size: 150px;
+	font-size: 11vw;
+	color: #cccc;
+	text-align: right;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.portrait{
+	border-radius: 50%;
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	position: relative;
+}
+
+.top3{
+
+	font-family: "lane_-_narrowregular";
+	font-size: 150px;
+	font-size: 11vw;
+	color: #cccc;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.middlegrid{
+    grid-row: 2/3;
+    border-top: .2vw solid #cccc;
+    margin-top: -2vw;
+	display: grid;
+	position: relative;
+	grid-auto-columns: 1fr 1fr;
+	margin-bottom: 2vw;
+}
+
+
+.mid1{
+	grid-column: 1/2;
+	font-family: "lane_-_narrowregular";
+	font-size: 150px;
+	font-size: 5vw;
+	color: #cccc;
+	text-align: right;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+    margin-right: 7vw;
+}
+
+.mid2{
+	grid-column: 2/2;
+	font-family: "lane_-_narrowregular";
+	font-size: 150px;
+	font-size: 5vw;
+	color: #cccc;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+    margin-left: 7vw;
+}
+
+.bottomgrid{
+	grid-row: 3/3;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	position: relative;
+}
+
+.ui{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	border: .2vw solid #cccc;
+	border-left: .1vw solid #cccc;
+	border-right: .1vw solid #cccc;
+}
+
+.pixel{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	border: .2vw solid #cccc;
+	border-left: .1vw solid #cccc;
+	border-right: .1vw solid #cccc;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	border: .2vw solid #cccc;
+	border-right: .1vw solid #cccc;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	border: .2vw solid #cccc;
+	border-left: .1vw solid #cccc;
+	background-color: #cccc;
+	color: white;
+}
+
+a{
+	display: flex;
+    font-family: 'aaarghnormal';
+    text-decoration: none;
+    font-size: 3vw;
+    color: #cccc;
+    height: 3.5vw;
+}
+
+
+a:hover{
+    background-color: #cccc;
+    color:white;
+}
+
+.aboutheader{
+	font-family: "lane_-_narrowregular";
+	font-size: 70px;
+	font-size: 5vw;
+	color: white;
+	text-align: center;
+}
+
+.about{
+	background-color: #ccc;
+}
+
+.abouttext{
+	font-family: "lane_-_narrowregular";
+	font-size: 25px;
+	font-size: 2vw;
+	color: white;
+	text-align: center;
+}
+
+.linkword{
+	display: flex;
+	align-items: center;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;/* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	text-align: center;
+	font-family: "lane_-_narrowregular";
+	font-size: 30px;
+	font-size: 2.5vw;
+	color:#888888;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #f2f2f2;
+    color: #888888;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: "lane_-_narrowregular";
+	font-size: 25px;
+	font-size: 2vw;
+	display: flex;
+	align-content: flex-end
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:#6A6A6A;
+	color: white;
+}
+
+/* Add a background color and some padding around the form */
+.contactform {
+    border-radius: 5px;
+    padding: 20px;
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	
+} 
