@@ -1,11 +1,11 @@
 body{
-	background-color: #ccc;
+	background-color: #DDD2D4;
 }
 
 .container{
 	display: grid;
 	grid-auto-rows: 1fr .25fr 1fr 1fr;
-	background-color: white;
+	background-color: #C4B0B3;
 }
 
 .topgrid{
@@ -19,7 +19,7 @@ body{
 	font-family: "lane_-_narrowregular";
 	font-size: 150px;
 	font-size: 11vw;
-	color: #cccc;
+	color: #f4edee;
 	text-align: right;
 	display: flex;
 	align-items: flex-end;
@@ -41,7 +41,7 @@ body{
 	font-family: "lane_-_narrowregular";
 	font-size: 150px;
 	font-size: 11vw;
-	color: #cccc;
+	color: #f4edee;
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-start;
@@ -49,7 +49,7 @@ body{
 
 .middlegrid{
     grid-row: 2/3;
-    border-top: .2vw solid #cccc;
+    border-top: .2vw solid #f4edee;
     margin-top: -2vw;
 	display: grid;
 	position: relative;
@@ -63,7 +63,7 @@ body{
 	font-family: "lane_-_narrowregular";
 	font-size: 150px;
 	font-size: 5vw;
-	color: #cccc;
+	color: #f4edee;
 	text-align: right;
 	display: flex;
 	align-items: flex-start;
@@ -76,7 +76,7 @@ body{
 	font-family: "lane_-_narrowregular";
 	font-size: 150px;
 	font-size: 5vw;
-	color: #cccc;
+	color: #f4edee;
 	display: flex;
 	align-items: flex-start;
 	justify-content: flex-start;
@@ -94,36 +94,36 @@ body{
     display: flex;
     justify-content: center;
 	align-items: center;
-	border: .2vw solid #cccc;
-	border-left: .1vw solid #cccc;
-	border-right: .1vw solid #cccc;
+	border: .2vw solid #f4edee;
+	border-left: .1vw solid #f4edee;
+	border-right: .1vw solid #f4edee;
 }
 
 .pixel{
     display: flex;
     justify-content: center;
 	align-items: center;
-	border: .2vw solid #cccc;
-	border-left: .1vw solid #cccc;
-	border-right: .1vw solid #cccc;
+	border: .2vw solid #f4edee;
+	border-left: .1vw solid #f4edee;
+	border-right: .1vw solid #f4edee;
 }
 
 .home{
     display: flex;
     justify-content: center;
 	align-items: center;
-	border: .2vw solid #cccc;
-	border-right: .1vw solid #cccc;
-	background-color: #cccc;
-	color: white;
+	border: .2vw solid #f4edee;
+	border-right: .1vw solid #f4edee;
+	background-color: #594a4c;
+	color: #DDD2D4;
 }
 
 .contact{
     display: flex;
     justify-content: center;
 	align-items: center;
-	border: .2vw solid #cccc;
-	border-left: .1vw solid #cccc;
+	border: .2vw solid #f4edee;
+	border-left: .1vw solid #f4edee;
 }
 
 a{
@@ -131,14 +131,19 @@ a{
     font-family: 'aaarghnormal';
     text-decoration: none;
     font-size: 3vw;
-    color: #cccc;
+    color: #f4edee;
     height: 3.5vw;
 }
 
 
 a:hover{
-    background-color: #cccc;
+    background-color: #847072;
     color:white;
+}
+
+.home:hover{
+	background-color: #594a4c;
+	color: #DDD2D4;
 }
 
 .aboutheader{
@@ -149,8 +154,7 @@ a:hover{
 	text-align: center;
 }
 
-.about{
-	background-color: #ccc;
+.about{;
 	margin: 20px;
 	margin-left: 30px;
 	margin-right: 30px;
